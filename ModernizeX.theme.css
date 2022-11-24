@@ -1,0 +1,62 @@
+/**
+ * @name ModernizeX
+ * @author cetinkrt#6165
+ * @version 1.3.0
+ * @description A modern theme, you can make gifs as you like with a background and take advantage of many features.
+ * @source https://github.com/DiscordStyles/FrostedGlass
+*/
+
+@import url(https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css);
+
+/* BlackBox for user roles */
+@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
+
+/* Old Windows titlebar - remove this @import if you wish to use default titlebar */
+@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
+
+/* Icon change import by Obscure.#4719 */
+@import url(//objectiveslayer.github.io/ComfyGray/addons/icon-replace.css);
+
+/* Radial Status by Gibbu#1211 */
+@import url(//objectiveslayer.github.io/ComfyGray/addons/radial-status.css);
+
+/* For ModernizeX server Rings */
+@import url(//objectiveslayer.github.io/ComfyGray/addons/server-rings.css);
+
+/* For ModernizeX Home Icon */
+@import url(//objectiveslayer.github.io/ComfyGray/addons/homeicon.css);
+
+/* For ModernizeX Border Roles (makes the text and border the same color as the role color) */
+@import url(//objectiveslayer.github.io/ComfyGray/addons/roles.css);
+
+/* For ModernizeX User Controls Area */
+@import url(//objectiveslayer.github.io/ComfyGray/addons/user-controls.css);
+
+
+@import url(//objectiveslayer.github.io/ComfyGray/addons/floating%20guild%20list.css);
+
+
+
+
+/* add custom css below this */
+:root {
+  /* Background image variables */
+  --background-image:  url('https://i.hizliresim.com/69mx46p.gif'); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --background-image-blur: 5px; /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
+  --background-image-size: cover; /* Size of the background image | DEFAUT: cover | OPTIONS: cover, contain */
+  --background-image-position: center; /* Position of background image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
+
+  /* Popout & Modal variables */
+  --popout-modal-image: var(--background-image); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --popout-modal-blur: 5px; /* Blur intensity of --popout-modal-image | Must end in px | DEFAULT: 5px */
+  --popout-modal-size: cover; /* Size of the popout/modal image | DEFAUT: cover | OPTIONS: cover, contain */
+  --popout-modal-position: center; /* Position of popout/modal image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
+
+ 
+
+  /* Other variables */
+  --window-padding: 30px; /* Spacing around the Discord window | DEFAULT: 20px */
+
+  --font: 'Whitney';
+
+}
